@@ -1,14 +1,14 @@
 
  
-Todo Management System
+#Todo Management System
 
 
-Introduction:
+##Introduction:
 Todo Management System Project in ReactJS and Spring Boot Full Stack Project. It helps us to track and organize todo tasks to increase the productivity. This project is mainly authorized by Administrator as well as Users. 
 The Project which will come to admin authorization, he/she can perform operations such as add user, update user information, delete the user information. He/She also gets the user details.
 As per User authorization role, we can perform tasks such as get the information of user and mark the task as finished or yet-to finish.
 
-Frontend Technologies Used:
+##Frontend Technologies Used:
 	React JS
 	Vite JS
 	Bootstrap CSS
@@ -16,7 +16,7 @@ Frontend Technologies Used:
 	NPM
 	Axios
 
-Backend Technologies Used:
+##Backend Technologies Used:
 	Spring boot
 	Spring Security
 	JSON Web Token
@@ -25,7 +25,7 @@ Backend Technologies Used:
 	Maven
 	Postman Client
 
-Software Used in Todo Management System: 
+##Software Used in Todo Management System: 
 	STS (Spring Tool Suite):
 For developing our backend, todo management system project using Spring Boot, we have used STS (Spring Tool Suite)
 	VS Code (Visual Studio Code):
@@ -37,12 +37,12 @@ For efficient querying and manipulation of our Project's information, we have us
 	Postman Client:
 For sending HTTP Requests, setting parameters and viewing responses , we have used Postman Client to test the API’s.
 
-User Modules:
+##User Modules:
 The Project basically has two modules:
 1] Administrator Module
 2] User (customer) Module 
 
-Functional Modules:
+##Functional Modules:
 1] User Authentication Module
 	The registration and Login system has been added so that only authenticated users (Admin & Customer) can perform their functionalities.
 2] Administrator Module
@@ -51,7 +51,7 @@ Functional Modules:
 3] User(customer) Module
 	The  User  module  can handle functionalities like check the status of the task and change it accordingly. 
 
-Overview:
+##Overview:
 
 	The Todo Management System Project using React JS and Spring Boot is a 2-module project where Administrator can add the task to the Todo management system. After adding the tasks to the system, and now Admin will update the tasks accordingly. He can delete the task as well if it’s not necessary. 
 Once a user log in to the system, and he will be able to see the Task which is available to him by the admin. If any new Customer comes then the he can register into the system.
